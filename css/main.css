@@ -31,7 +31,7 @@ marquee {
   height: 30px;
   line-height: 28px;
   /* width: 100%; */
-  position: fixed;
+  /* position: fixed; */
   z-index: 9999;
 }
 .nav {
@@ -45,21 +45,28 @@ marquee {
 .left {
   padding-top: 40px;
   display: flex;
+  align-items: center;
 }
 .right {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 40px;
 }
 .left li {
-  padding: 0px 30px;
+ padding: 10px 20px;
 }
 .right li {
-  padding: 0px 30px;
+  padding: 10px 20px;
 }
 .logo {
   width: 150px;
-  margin-right: 60px;
+  /* margin-right: 60px; */
   padding-top: 40px;
+}
+img{
+  object-fit: contain;
+  width: 100%;
 }
 #content {
   /* width: 1400px;
@@ -165,7 +172,7 @@ text-align: center;
 .subscribe {
   display: block;
   margin: 0 auto;
- padding-left: 140px;
+
 
  }
 .subscribe h3{
@@ -194,7 +201,8 @@ text-align: center;
 }
 
 .ss{
-  padding-left: 60px;
+
+  width: 50%;
 }
 .ss li{
   line-height: 50px;
@@ -202,23 +210,28 @@ text-align: center;
 .service{
   float: left;
   padding-bottom: 30px;
+  width: 50%;
 }
 .subscribe{
   display: flex;
+  justify-content: space-between
+}
+.ft{
+  width: 50%;
 }
 .service2{
   float: left;
-  padding-left: 200px;
+  width: 50%;
 }
 .footer{
-  margin-left: 250px;
+  /* margin-left: 250px; */
   padding: 50px
 }
 .ft3{
   display: flex;
 }
 .ft3 p{
-  margin-left: 900px;
+  /* margin-left: 900px; */
   font-size: 11px;
   color: gray;
 }
