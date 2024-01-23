@@ -89,10 +89,10 @@
     word-break: keep-all;
     flex-direction: column;
   }
-  
-  .scroll {
-    width: 320px;
-  }
+
+  /* .scroll {
+    width: 330px;
+  } */
   .container {
     width: 300px;
   }
@@ -190,7 +190,7 @@
     
   }
   .news-letter p{
-    width: 310px;
+    width: 290px;
   }
   .subscribe h3 {
     font-size: 12px;
@@ -200,7 +200,7 @@
   }
   .E-MAIL ul li {
     font-size: 10px;
-    width: 310px;
+    width: 300px;
   }
   .E-MAIL input {
     width: 10px;
